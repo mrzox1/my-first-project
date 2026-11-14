@@ -8,4 +8,4 @@ Open `index.html` in a browser. No build tools or dependencies are required.
 
 ## Personalize
 
-Replace `Your Name` in `index.html` with your name, update the introductory and About Me copy, and change `hello@example.com` to your email address. The skill cards are examples and can be edited to match your experience.
+The portfolio is personalized for Mohamed Reda. Update the introductory and About Me copy, contact email, or skill cards in `index.html` if your information changes.
