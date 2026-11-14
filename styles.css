@@ -537,13 +537,27 @@ h2 {
   background: #dceee0;
 }
 
-.contact-decoration {
-  position: absolute;
-  right: 8%;
-  bottom: -123px;
-  color: rgba(165, 213, 173, 0.08);
-  font-size: 350px;
-  line-height: 1;
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.social-links a {
+  color: #c1d0c6;
+  font-size: 12px;
+  font-weight: 600;
+  transition: color 160ms ease;
+}
+
+.social-links a:hover {
+  color: #a5d5ad;
+}
+
+.social-links span {
+  margin-left: 4px;
+  color: #89c19a;
 }
 
 .site-footer {
