@@ -47,15 +47,32 @@ a {
   border-bottom: 1px solid rgba(228, 233, 228, 0.8);
 }
 
-.wordmark {
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
   font-family: var(--display);
-  font-size: 23px;
-  font-weight: 800;
-  letter-spacing: -1.5px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
 }
 
-.wordmark span {
-  color: var(--green);
+.site-brand img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.site-brand span {
+  color: var(--ink);
+}
+
+.site-footer .site-brand span {
+  color: #f5f8f5;
+}
+
+.site-footer .site-brand:hover {
+  color: #a5d5ad;
 }
 
 .site-header nav {
@@ -533,14 +550,6 @@ h2 {
   min-height: 83px;
   background: #14352b;
   color: #d8e3da;
-}
-
-.site-footer .wordmark {
-  color: #f5f8f5;
-}
-
-.site-footer .wordmark span {
-  color: #8cc39a;
 }
 
 .site-footer p {
